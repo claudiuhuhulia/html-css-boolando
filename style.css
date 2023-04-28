@@ -29,9 +29,32 @@ ul, li{
         margin-right: 5px;
 }
 .logo img{
-    height: 50px;
+    height: 40px;
 }
 a, .profile{
     color:white;
     text-decoration: none;
 }
+
+.row{
+    display: flex;
+    gap:10px;
+    margin-top: 40px;
+}
+.col{
+    flex-basis: calc(100% / 3);
+    border: 2px solid black;
+}
+
+.card img{
+    max-width: 100%;
+}
+ .brand{
+    color: rgb(109, 107, 107);
+ }
+ .price{
+    color: red;
+    font-weight: bolder;
+    display: inline-block;
+ }
+
