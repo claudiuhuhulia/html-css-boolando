@@ -98,8 +98,12 @@ a, .profile{
 
 }
 .sost{
-    background-color: green;
-    
+    background-color: green;   
+    margin-left: 60px;
+}
+#sost{
+   margin-left: 0;
+   
 }
 
 #hov-imga:hover{
