@@ -58,3 +58,28 @@ a, .profile{
     display: inline-block;
  }
 
+.heart{
+    padding: 20px 20px;
+    position: absolute;
+    background-color: white;
+    top: 10px;
+    right: 0;
+}
+.card{
+    position: relative;
+}
+
+.discount, .sost{
+    padding: 5px 10px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    left: 0;
+    bottom: 100px;
+}
+
+.sost{
+    background-color: green;
+    left:60px;
+}
