@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+header{
+    background-color: #ff6900; 
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.container{
+    width: 1400px;
+    margin: auto;
+}
+ul, li{
+        list-style-type: none;
+        display: inline;
+        font-size: 1.1em;
+        margin-right: 5px;
+}
+.logo img{
+    height: 50px;
+}
+a, .profile{
+    color:white;
+    text-decoration: none;
+}
