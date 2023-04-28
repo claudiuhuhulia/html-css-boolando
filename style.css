@@ -39,16 +39,13 @@ a, .profile{
 .row{
     display: flex;
     gap:10px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .col{
     flex-basis: calc(100% / 3);
     border: 2px solid black;
 }
 
-.card img{
-    max-width: 100%;
-}
  .brand{
     color: rgb(109, 107, 107);
     margin-top: 5px;
@@ -60,20 +57,34 @@ a, .profile{
  }
 
 .heart{
-    padding: 20px 20px;
+    padding: 15px 15px;
     position: absolute;
     background-color: white;
     top: 10px;
     right: 0;
 }
-.card{
+.card, .cardb, .cardc, .cardd, .carde, .cardf{
     position: relative;
-    background-image: url(img/1.webp);
     background-size: cover;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    height: 700px;
+}
+.card{
+    background-image: url(img/1.webp);
+}
+.cardb{
+    background-image: url(img/2.webp);
+}
+.cardc{
+    background-image: url(img/3.webp);
+}
+.cardd{
+    background-image: url(img/4.webp);
+}
+.carde{
+    background-image: url(img/5.webp);
+}
+.cardf{
+    background-image: url(img/6.webp);
 }
 
 .discount, .sost{
@@ -84,13 +95,31 @@ a, .profile{
     font-weight: bolder;
     left: 0;
     bottom: 50px;
-}
 
+}
 .sost{
     background-color: green;
-    left:60px;
+    
 }
 
 #hov-imga:hover{
     background-image: url(img/1b.webp);
     }
+#hov-imgb:hover{
+    background-image: url(img/2b.webp);
+}
+#hov-imgc:hover{
+    background-image: url(img/3b.webp);
+}
+#hov-imgd:hover{
+    background-image: url(img/4b.webp);
+}
+#hov-imge:hover{
+    background-image: url(img/5b.webp);
+}
+#hov-imgf:hover{
+    background-image: url(img/6b.webp);
+}
+.heart:hover{
+    color: red;
+}
