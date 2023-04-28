@@ -6,18 +6,25 @@
 
 body{
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 150px;
 }
 header{
     background-color: #ff6900; 
     height: 80px;
     display: flex;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index:1;
 }
 .header-flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
+}
+    
 .container{
     width: 1400px;
     margin: auto;
@@ -39,7 +46,6 @@ a, .profile{
 .row{
     display: flex;
     gap:10px;
-    margin-top: 40px;
 }
 .col{
     flex-basis: calc(100% / 3);
@@ -126,4 +132,30 @@ a, .profile{
 }
 .heart:hover{
     color: red;
+}
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 50px;
+}
+.agency{
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    margin-right: 10px;
+}
+.left, .right{
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.right > i{
+    margin-right: 5px;
 }
